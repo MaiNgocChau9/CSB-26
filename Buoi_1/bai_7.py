@@ -1,0 +1,1 @@
+print(f"10 số đầu tiên trong dãy là: {input()[:10]}")
