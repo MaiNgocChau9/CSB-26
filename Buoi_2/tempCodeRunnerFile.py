@@ -1,2 +1,1 @@
-else:
-    #     return (ds[n // 2 - 1] + ds[n // 2]) / 2
+print(sum([num for num in list(map(int, input("Nhập các số: ").split())) if num % 2 == 0]))

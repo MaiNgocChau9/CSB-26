@@ -1,2 +1,1 @@
-ds = list(map(int, input("Nhập các số: ").split()))
-print(sum([num for num in ds if num % 2 == 0]))
+print(sum([num for num in list(map(int, input("Nhập các số: ").split())) if num % 2 == 0]/len()))
